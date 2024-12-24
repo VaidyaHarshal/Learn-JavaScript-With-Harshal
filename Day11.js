@@ -5,7 +5,7 @@ function Person(firstName, lastName) {
   this.lastName = lastName;
 }
 
-const member = new Person("Lydia", "Hallie");
+const member = new Person("Vaidya", "Harshal");
 Person.getFullName = function () {
   return `${this.firstName} ${this.lastName}`;
 };
